@@ -7,4 +7,4 @@ add_executable(example_A_test test.cpp)
 target_link_libraries(example_A_test example_A)
 
 enable_testing()
-add_test("simple test example A" example_A_test)
+add_test("simple-test-example-A" example_A_test)
