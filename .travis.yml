@@ -9,4 +9,4 @@ script:
     - cd _builds
     - cmake ..
     - cmake --build .
-    - ctest
+    - ctest -V
