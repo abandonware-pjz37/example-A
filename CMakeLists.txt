@@ -9,3 +9,6 @@ target_link_libraries(example_A_test example_A)
 
 enable_testing()
 add_test("simple-test-example-A" example_A_test)
+
+install(TARGETS example_A DESTINATION ".")
+install(FILES example_A/foo.hpp DESTINATION "example_A")
